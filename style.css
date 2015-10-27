@@ -1,13 +1,18 @@
 body {
 	background-image: url("caveBackground.jpg");
-	background-color: black;
-	color: white;
+	background-position: center top;
+	/* background-repeat: no-repeat; */
 }
 
-h1,a {
-	color: white;
+.title {
+	color: #1ab5cb;
 }
 
 #menu {
 	width: 300px;
+	display: none;
+}
+
+#header {
+	
 }

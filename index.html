@@ -4,15 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>The Quarry</title>
-	<!-- <script src="jquery-2.1.4.js"></script> -->
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> -->
-	<!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
-	<!-- <link href="jquery-ui.css" rel="stylesheet"> -->
-	
-    <!-- <link rel="stylesheet" href="jquery-ui.theme.css">
-	<script src="external/jquery/jquery.js"></script>
-	<script src="jquery-ui.min.js"></script> -->
-	
+
+	<!-- Needed for jquery-ui -->
 	<link href="jquery-ui.css" rel="stylesheet">
 	<script src="external/jquery/jquery.js"></script>
 	<script src="jquery-ui.js"></script>
@@ -22,10 +15,21 @@
 </head>
 
 <body>
-    <h1>The Quarry</h1>
-	<ul id="menu" >
-		<li><a href="Quartz.html">Link to the Past Clone</a></li>
-		<li><a href="Example Rougelike.html">Example Rougelike</a></li>
+	<div id="header">
+		<h1 class="title" >The Quarry</h1>
+	</div>
+	<form style="margin-top: 1em;">
+	<div id="toolbar" class='ui-widget-header ui-corner-all'>
+		<button id="games">Games</button>
+		<button id="blog">Blog</button>
+		<button id="about">About</button>
+	</div>
+	</form>
+	<div>
+		<ul id="menu" >
+			<li><a href="Quartz.html">Link to the Past Clone</a></li>
+			<li><a href="Example Rougelike.html">Example Rougelike</a></li>
+	</div>
 	</ul>
 </body>
 
