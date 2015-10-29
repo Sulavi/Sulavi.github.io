@@ -4,6 +4,10 @@ body {
 	/* background-repeat: no-repeat; */
 }
 
+#menu a {
+	text-decoration: none;
+}
+
 .title {
 	color: #1ab5cb;
 }
