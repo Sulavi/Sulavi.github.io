@@ -2,21 +2,24 @@ body {
 	background-image: url("caveBackground.jpg");
 	background-position: center top;
 	/* background-repeat: no-repeat; */
+	margin: 0;
 }
 
-#menu a {
-	text-decoration: none;
-}
-
-.title {
-	color: #1ab5cb;
-}
-
-#menu {
-	width: 300px;
-	display: none;
-}
-
-#header {
+#main {
+	background-image: url("caveBackground.jpg");
+	background-position: center -100px;
 	
+	margin: 100px;
+	padding: 50px;
+	border-radius: 25px;
+	opacity: 1;
+ 	background-color: black; /* #3399FF;  */
+	color: white; /* #FF00FF; */
+	filter: grayscale(1);
+ 	-webkit-filter: grayscale(100%); 
+	border: 1px solid white;
+}
+
+.content {
+	color: white
 }
