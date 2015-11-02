@@ -2,14 +2,12 @@ $(document).ready(function(){
 	$('#menu').menu();
 	$('#toolbar').buttonset();
 	
-	$("#games").on({
+	$("#about").on({
 		click: function(){
-			$('#menu').show();
-			return false;
+			window.location.href="about.html";
 		},
 		blur: function(){
 			$('#menu').hide();
 		}
 	});
 });
-
